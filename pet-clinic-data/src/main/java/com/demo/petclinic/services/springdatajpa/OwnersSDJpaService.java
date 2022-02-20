@@ -1,4 +1,4 @@
-package com.demo.petclinic.services.map.springdatajpa;
+package com.demo.petclinic.services.springdatajpa;
 
 import com.demo.petclinic.model.Owner;
 import com.demo.petclinic.repositories.OwnerRepository;

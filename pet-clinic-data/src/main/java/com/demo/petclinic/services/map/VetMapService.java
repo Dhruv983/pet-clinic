@@ -2,18 +2,19 @@ package com.demo.petclinic.services.map;
 
 import com.demo.petclinic.model.Speciality;
 import com.demo.petclinic.model.Vet;
-import com.demo.petclinic.services.CRUDService;
 import com.demo.petclinic.services.SpecialtyService;
 import com.demo.petclinic.services.VetService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 @Service
-public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
+@Profile("map")
+public class VetMapService extends AbstractMapService<Vet,Long> implements VetService {
 
     private final SpecialtyService specialtyService;
 
-    public VetServiceMap(SpecialtyService specialtyService) {
+    public VetMapService(SpecialtyService specialtyService) {
         this.specialtyService = specialtyService;
     }
 
