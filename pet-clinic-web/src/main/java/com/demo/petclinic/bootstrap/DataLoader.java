@@ -108,11 +108,12 @@ public class DataLoader implements CommandLineRunner {
 
         System.out.println("Loaded Vets........");
 
-        Visit visit1 = new Visit();
-        visit1.setDescription("First Visit");
-        visit1.setPet(mikesPet);
+        Visit catVisit = new Visit();
+        catVisit.setPet(fionasCat);
+        catVisit.setDate(LocalDate.now());
+        catVisit.setDescription("Sneezy Kitty");
 
-        visitService.save(visit1);
+        visitService.save(catVisit);
 
         System.out.println("Loaded Visits........");
     }
