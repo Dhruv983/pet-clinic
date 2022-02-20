@@ -1,4 +1,6 @@
 com\demo\petclinic\services\OwnerService.class
+com\demo\petclinic\services\SpecialtyService.class
+com\demo\petclinic\services\map\SpecialityMapService.class
 com\demo\petclinic\model\Pet.class
 com\demo\petclinic\model\Owner.class
 com\demo\petclinic\services\map\OwnerServiceMap.class
@@ -7,6 +9,9 @@ com\demo\petclinic\model\Visit.class
 com\demo\petclinic\services\map\AbstractMapService.class
 com\demo\petclinic\model\Vet.class
 com\demo\petclinic\services\CRUDService.class
+com\demo\petclinic\services\PetTypeService.class
+com\demo\petclinic\model\Speciality.class
+com\demo\petclinic\services\map\PetTypeMapService.class
 com\demo\petclinic\services\map\VetServiceMap.class
 com\demo\petclinic\services\PetService.class
 com\demo\petclinic\services\map\PetServiceMap.class
