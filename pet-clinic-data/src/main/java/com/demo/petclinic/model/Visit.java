@@ -5,7 +5,11 @@ import lombok.*;
 import javax.persistence.*;
 import java.time.LocalDate;
 
-@Data
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Entity
 @Table(name = "visits")
 public class Visit extends BaseEntity{

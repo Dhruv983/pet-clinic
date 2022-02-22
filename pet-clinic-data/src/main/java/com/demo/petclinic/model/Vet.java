@@ -5,7 +5,11 @@ import lombok.*;
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
-@Data
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Entity
 @Table(name = "vets")
 public class Vet extends Person{

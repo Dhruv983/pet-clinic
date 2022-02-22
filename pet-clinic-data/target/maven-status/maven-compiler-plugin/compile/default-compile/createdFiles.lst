@@ -6,14 +6,18 @@ com\demo\petclinic\services\springdatajpa\SpecialitySDJpaService.class
 com\demo\petclinic\model\PetType.class
 com\demo\petclinic\services\map\AbstractMapService.class
 com\demo\petclinic\model\Vet.class
+com\demo\petclinic\model\Speciality$SpecialityBuilder.class
 com\demo\petclinic\model\Speciality.class
 com\demo\petclinic\services\springdatajpa\VetSDJpaService.class
 com\demo\petclinic\services\springdatajpa\PetTypeSDJpaService.class
 com\demo\petclinic\services\PetService.class
+com\demo\petclinic\model\Visit$VisitBuilder.class
 com\demo\petclinic\repositories\SpecialtyRepository.class
 com\demo\petclinic\model\BaseEntity.class
 com\demo\petclinic\services\map\VetMapService.class
 com\demo\petclinic\services\springdatajpa\VisitSDJpaService.class
+com\demo\petclinic\model\PetType$PetTypeBuilder.class
+com\demo\petclinic\model\Vet$VetBuilder.class
 com\demo\petclinic\services\SpecialtyService.class
 com\demo\petclinic\services\map\SpecialityMapService.class
 com\demo\petclinic\model\Pet.class
@@ -27,6 +31,7 @@ com\demo\petclinic\repositories\PetTypeRepository.class
 com\demo\petclinic\repositories\OwnerRepository.class
 com\demo\petclinic\services\map\PetTypeMapService.class
 com\demo\petclinic\services\VisitService.class
+com\demo\petclinic\model\Owner$OwnerBuilder.class
 com\demo\petclinic\repositories\PetRepository.class
 com\demo\petclinic\services\VetService.class
 com\demo\petclinic\services\springdatajpa\PetSDJpaService.class

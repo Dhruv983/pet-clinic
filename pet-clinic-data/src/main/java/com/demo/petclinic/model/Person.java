@@ -6,9 +6,19 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.MappedSuperclass;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+
 @MappedSuperclass
 public class Person extends BaseEntity{
+
+    public Person(Long id, String firstname, String lastname) {
+        super(id);
+        this.firstname = firstname;
+        this.lastname = lastname;
+    }
 
     @Column(name = "first_name")
     private String firstname;
