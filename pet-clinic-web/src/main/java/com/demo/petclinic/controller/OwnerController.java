@@ -36,7 +36,7 @@ public class OwnerController {
 
     @RequestMapping({"/find"})
     public String findOwner(Model model){
-        model.addAttribute("owner", Owner.builder());
+        model.addAttribute("owner", Owner.builder().build());
         return "owners/findOwners";
     }
 
@@ -52,7 +52,7 @@ public class OwnerController {
 
         if (results.isEmpty()) {
             // no owners found
-            result.rejectValue("lastName", "notFound", "not found");
+            result.rejectValue("lastname", "notFound", "not found");
             return "owners/findOwners";
         } else if (results.size() == 1) {
             // 1 owner found

@@ -64,6 +64,6 @@ public class OwnersSDJpaService implements OwnerService {
 
     @Override
     public List<Owner> findAllByLastnameLike(String lastname) {
-        return null;
+        return ownerRepository.findAllByLastnameLike(lastname);
     }
 }
