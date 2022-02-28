@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.lang.management.OperatingSystemMXBean;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -59,5 +60,10 @@ public class OwnersSDJpaService implements OwnerService {
     @Override
     public Owner findByLastName(String lastname) {
         return ownerRepository.findByLastname(lastname);
+    }
+
+    @Override
+    public List<Owner> findAllByLastnameLike(String lastname) {
+        return null;
     }
 }
