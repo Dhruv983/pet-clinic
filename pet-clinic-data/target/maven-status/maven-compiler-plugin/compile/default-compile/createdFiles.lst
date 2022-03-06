@@ -34,6 +34,7 @@ com\demo\petclinic\services\VisitService.class
 com\demo\petclinic\model\Owner$OwnerBuilder.class
 com\demo\petclinic\repositories\PetRepository.class
 com\demo\petclinic\services\VetService.class
+com\demo\petclinic\model\Pet$PetBuilder.class
 com\demo\petclinic\services\springdatajpa\PetSDJpaService.class
 com\demo\petclinic\model\Person.class
 com\demo\petclinic\repositories\VetRepository.class
